@@ -1,0 +1,210 @@
+#stage1 inizio gioco#
+
+notime 1
+music		data/music/lv1.ogg
+background      data/bgs/stage1/back3.gif 
+panel		data/bgs/stage1/back3.gif 
+frontpanel       data/bgs/stage1/front3.gif 
+
+wall 0 206 -80 0 140 140 1110 1000
+
+wall 118 113 -80 0 150 150 1110 1000
+
+wall 633 113 -80 0 1120 2120 2110 1000
+
+wall 1147 207 -80 0 1120 1120 2110 1000
+
+
+
+
+order a
+
+
+spawn1  190 190
+spawn2  190 140
+
+
+spawn	DrumR
+coords	446 100
+at	0
+
+spawn	Drumr
+coords	496 70
+at	0
+
+
+spawn	sergente
+map     1
+coords	300 180
+at	300
+
+spawn	gregKn
+map     1
+coords	340 180
+at	300
+
+spawn	gregKn
+coords	380 180
+at	300
+
+spawn	gregKn
+map     2
+2pSpawn 1
+coords	340 180
+at	300
+
+spawn	Sergente
+map     2
+coords	340 185
+at	300
+
+spawn	afroBo
+map 2
+coords	-100 180
+at	300
+
+spawn	afro
+map 4
+coords	-120 180
+at	300
+
+spawn	afro
+2pSpawn 1
+map 3
+coords	-120 180
+at	300
+
+spawn	afro
+map 1
+coords	-140 180
+at	300
+
+spawn	greg
+map 3
+coords	420 190
+at	300
+
+wait
+at 350
+
+spawn	gregKn
+item    Knife
+map     1
+coords	420 190
+at	400
+
+
+spawn	AfroBo
+item    Bomb
+map     4
+2pSpawn 1
+coords	410 190
+at	400
+
+spawn	sergente
+coords	400  190
+at	400
+
+spawn	sergente
+map     2
+coords	400  187
+at	400
+
+spawn	afro
+map     1
+coords	430  187
+at	400
+
+spawn	afrobo
+map     1
+2pspawn 1
+coords	410  190
+at	400
+
+
+spawn	afroBo
+coords	411  190
+at	400
+
+spawn	greg
+map 2
+coords	-180 190
+at	400
+
+
+spawn	AfroBo
+item    Bomb
+map     1
+coords	425 185
+at	400
+
+wait
+at 450
+
+spawn	gregKn
+map 1
+coords	145 160
+at	900
+
+spawn	afro
+map 1
+coords	-35 160
+at	900
+
+spawn	sergente
+map 2
+coords	-55 160
+at	900
+
+spawn	gregMi
+2pSpawn
+map 1
+coords	155 190
+at	900
+
+spawn	gregMi
+item    mitra
+map 1
+coords	-80 188
+at	900
+
+
+spawn	Sergente
+map     5
+coords	-78 160
+at	900
+
+spawn	Sergente
+2pSpawn 1
+map     1
+coords	-45 180
+at	900
+
+spawn	Sergente
+2pSpawn 1
+coords	-115 180
+at	900
+
+spawn	Sergente
+map     4
+coords	-65 200
+at	900
+
+wait
+at 1111
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

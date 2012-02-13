@@ -1,0 +1,154 @@
+#stage1 inizio gioco#
+
+notime 1
+music		data/music/lv1.ogg
+background      data/bgs/stage1/back2.gif 
+panel		data/bgs/stage1/back2.gif 
+frontpanel       data/bgs/stage1/front22.gif 
+
+
+wall 0 206 -80 0 80 50 1110 1000
+
+wall 0 126 -80 0 105 105 1110 1000
+
+wall 500 148 -80 0 2220 2220 1110 1000
+
+
+
+hole 1125 191
+hole 1115 166
+hole 1105 150
+
+
+
+
+order a
+
+spawn	DrumB
+item    meat
+coords	116 129
+at	0
+
+spawn	DrumB
+2pitem  meat
+coords	85 142
+at	0
+
+spawn	DrumB
+coords	163 145
+at	0
+
+
+spawn1  50 123
+spawn2  80 123
+
+
+spawn	greg
+coords	420 150
+at	222
+
+spawn	gregMi
+map     1
+coords	410 150
+at	222
+
+spawn	afro
+map     1
+coords	420 180
+at	222
+
+spawn	afro
+map     4
+coords	400 180
+at	222
+
+spawn	gregKn
+item    knife
+map     2
+coords	400 177
+at	222
+
+spawn	gregKn
+item    knife
+map     1
+coords	400 180
+at	222
+
+spawn	afrobo
+item    Bomb
+map     3
+coords	420 150
+at	222
+
+
+
+wait
+at  300
+
+
+spawn	afrobo
+map     1
+coords	420 150
+at	460
+
+
+spawn	afrobo
+map     2
+coords	420 150
+at	460
+
+spawn	afro
+map     3
+coords	420 180
+at	460
+
+
+spawn	gregMi
+item    Mitra
+map     2
+coords	400 170
+at	460
+
+spawn	gregKn
+map     1
+coords	400 180
+at	460
+
+wait
+at 500
+
+
+spawn	gregKn
+map     1
+coords	-100 180
+at	870
+
+spawn	Sergente
+map     4
+coords	-100 180
+at	870
+
+spawn	gregMi
+item    Mitra
+map     1
+coords	-100 190
+at	870
+
+spawn	afrobo
+map     2
+coords	-110 150
+at	870
+
+wait
+at 1050
+
+
+
+
+
+
+
+
+
+
+

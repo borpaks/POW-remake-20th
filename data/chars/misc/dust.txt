@@ -1,0 +1,20 @@
+# Hit flash
+
+name	Dust
+type	none
+shadow	0
+alpha   1
+
+
+
+anim idle
+	loop	0
+	delay	4
+#	offset	16 17
+	offset	54 15
+	frame	data/chars/misc/empty.gif
+
+
+
+
+	

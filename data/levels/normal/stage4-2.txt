@@ -1,0 +1,210 @@
+#stage4 La resa dei conti#
+
+notime 1
+music		data/music/lv4.ogg
+background      data/bgs/stage4/back2.gif 
+panel		data/bgs/stage4/back2.gif 
+frontpanel       data/bgs/stage1/front22.gif 
+
+hole 888 204
+
+hole 863 178
+
+hole 843 159
+
+order a
+
+
+spawn1  31 70
+spawn2  21 90
+
+
+spawn	DrumR
+coords	327 160
+at	0
+
+spawn	DrumR
+coords	327 180
+at	0
+
+spawn	DrumR
+coords	327 200
+at	0
+
+
+spawn	DrumR
+coords	367 160
+at	0
+
+spawn	DrumR
+coords	367 180
+at	0
+
+spawn	DrumR
+coords	367 200
+at	0
+
+
+
+spawn	DrumB
+item    meat
+coords	146 169
+at	0
+
+spawn	DrumB
+coords	115 192
+at	0
+
+spawn	DrumB
+2pitem  meat
+coords	223 175
+at	0
+
+
+
+spawn	biker
+coords	330 180
+at	207
+
+spawn	biker
+coords	400 167
+at	177
+
+spawn	biker
+coords	420 190
+at	111
+
+
+spawn	greg
+coords	420 150
+at	222
+
+spawn	afro
+map     1
+coords	420 180
+at	222
+
+
+spawn	afroBo
+map     3
+coords	410 180
+at	222
+
+
+spawn	gregKn
+item    knife
+map     2
+coords	400 1500
+at	222
+
+spawn	gregKn
+item    knife
+map     1
+coords	400 180
+at	222
+
+spawn	afrobo
+item    Bomb
+map     2
+coords	420 150
+at	222
+
+
+
+wait
+at  300
+
+
+spawn	afrobo
+map     1
+coords	420 150
+at	460
+
+
+spawn	afrobo
+map     2
+coords	420 150
+at	460
+
+spawn	afro
+map     3
+coords	420 180
+at	460
+
+spawn	Sergente
+map     4
+coords	411 188
+at	460
+
+
+spawn	gregMi
+item    Mitra
+map     2
+coords	400 170
+at	460
+
+spawn	gregKn
+map     1
+coords	400 180
+at	460
+
+wait
+at 500
+
+
+
+spawn	afro
+map     3
+coords	-100 180
+at	900
+
+spawn	afro
+map     4
+coords	-90 180
+at	900
+
+spawn	Sergente
+map     2
+coords	-100 180
+at	910
+
+spawn	gregMi
+item    Mitra
+map     1
+coords	-100 190
+at	920
+
+spawn	afrobo
+map     2
+coords	-110 150
+at	920
+
+wait
+at 1100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

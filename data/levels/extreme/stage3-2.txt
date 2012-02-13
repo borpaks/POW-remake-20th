@@ -1,0 +1,158 @@
+#stage3 Nella giungla#
+
+notime 1
+music		data/music/lv3.ogg
+background      data/bgs/stage3/back2.gif 
+panel		data/bgs/stage3/back2.gif 
+frontpanel       data/bgs/stage1/front22.gif 
+
+wall 0 208 -80 0 88 88 240 1000
+
+wall 600 152 -80 0 450 300 220 1000
+
+wall 650 209 -80 0 450 450 220 1000
+
+
+
+
+
+order a
+
+
+spawn1  130 103
+spawn2  100 123
+
+
+
+
+
+spawn	DrumR
+coords	410 159
+at	0
+
+
+spawn	DrumR
+coords	540 159
+at	0
+
+spawn	Drumr
+coords	572 119
+at	0
+
+spawn	Sergente
+map     3
+coords	-20 133
+at	600
+
+spawn	afrobo
+coords	-40 160
+at	600
+
+
+spawn	gregKn
+item    Knife
+coords	-50 140
+at	600
+
+spawn	gregKn
+item    Knife
+map 2
+coords	-66 180
+at	600
+
+spawn	afro
+2pspawn 1
+map     1
+coords	-20 122
+at	600
+
+spawn	sergente
+map     1
+coords	-40 122
+at	600
+
+spawn	sergente
+2pSpawn 1
+map     2
+coords	-70 120
+at	600
+
+spawn	afrobo
+map     5
+coords	-25 144
+at	600
+
+spawn	afrobo
+map     3
+coords	-45 144
+at	600
+
+spawn	afrobo
+map     4
+coords	-65 144
+at	600
+
+spawn	Sergente
+map     2
+coords	-30 127
+at	600
+
+spawn	sergente
+2pspawn 1
+map     1
+coords	-40 190
+at	600
+
+spawn	sergente
+map     5
+coords	-60 190
+at	600
+
+group 4 4
+at  600
+
+spawn	afrobo
+map     1
+item    bomb
+coords	-30 127
+at	600
+
+
+spawn	afrobo
+map     3
+coords	-55 127
+at	600
+
+spawn	afrobo
+2pspawn 1
+item    bomb
+coords	-40 190
+at	600
+
+spawn	Sergente
+map     4
+coords	-30 127
+at	600
+
+spawn	sergente
+2pspawn 1
+map     5
+coords	-40 190
+at	600
+
+
+spawn	sergente
+map     3
+coords	-60 188
+at	600
+
+
+spawn	Sergente
+2pspawn 1
+coords	-100 127
+at	600
+
+
+
+
+

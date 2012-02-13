@@ -1,0 +1,10 @@
+name	Flash4
+type	none
+shadow	0
+
+anim idle
+	loop	0
+	delay	44
+	offset	27 49
+	frame	data/chars/misc/hit01.gif
+	

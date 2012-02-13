@@ -1,0 +1,261 @@
+name	   Snake4
+type	   none
+shadow	   0
+atchain    1 1 2 3 0 
+noquake    1
+playshotno sp
+jumpheight 3
+typeshot   0
+icon	   data/chars/Snake/iconw3.gif
+diesound   data/sounds/Snake1.wav
+gfxshadow  0
+
+
+
+load	BombS
+
+palette   data/chars/Snake/alter1.gif
+alternatepal   data/chars/Snake/alter2.gif 
+
+
+
+
+remap	 data/chars/Snake/alter1.gif data/chars/Snake/alter2.gif 
+
+
+
+com            f f s  freespecial
+com            a2  freespecial2
+
+
+
+iconmphigh  data/sprites/l1.gif loop	1
+
+
+iconmphalf  data/sprites/h1.gif loop	1
+
+
+iconmplow  data/sprites/h1.gif loop	1
+
+
+
+
+
+
+
+anim idle
+	loop	1
+	delay	12
+	offset	99 172
+	bbox	88 124 19 49
+
+	frame	data/chars/Snake/idle1.gif
+	frame	data/chars/Snake/idle1.gif
+	frame	data/chars/Snake/idle1.gif
+	frame	data/chars/Snake/idle2.gif
+	frame	data/chars/Snake/idle3.gif
+	frame	data/chars/Snake/idle3.gif
+        frame	data/chars/Snake/idle3.gif
+	frame	data/chars/Snake/idle3.gif
+	frame	data/chars/Snake/idle3.gif
+	frame	data/chars/Snake/idle2.gif
+
+
+
+
+
+anim walk
+	loop	1
+	delay	18
+	offset	99 172
+	bbox	88 124 19 49
+	frame	data/chars/Snake/wk01.gif
+	frame	data/chars/Snake/wk02.gif
+	frame	data/chars/Snake/wk03.gif
+
+
+
+
+anim get
+	loop	0
+	offset	99 172
+	delay  19
+	frame	data/chars/Snake/get1.gif
+        delay 22
+	frame	data/chars/Snake/get1.gif
+
+
+anim attack1 
+	loop	0
+	delay	7
+	offset	99 172
+	bbox	88 124 19 49
+	frame	data/chars/Snake/a101.gif
+	frame	data/chars/Snake/a102.gif
+	attack  106 131 25 32 6 0 0 0 12
+	frame	data/chars/Snake/a201.gif
+	attack  0 0 0 0 0 0 0 0 0 
+	frame	data/chars/Snake/a102.gif
+	frame	data/chars/Snake/a101.gif
+
+
+anim attack2
+	loop	0
+	delay	7
+	offset	99 172
+	bbox	88 124 19 49
+	frame	data/chars/Snake/a101.gif
+	frame	data/chars/Snake/a102.gif
+	attack  106 131 25 32 7 0 0 0 12
+	frame	data/chars/Snake/a201.gif
+	attack  0 0 0 0 0 0 0 0 0 
+	frame	data/chars/Snake/a102.gif
+	frame	data/chars/Snake/a101.gif
+
+
+	
+
+
+anim attack3
+	loop	0
+	delay	7
+	offset	99 172
+	bbox	88 124 19 49
+	frame	data/chars/Snake/a202.gif
+	attack  94 114 23 61 12 1 1 0 18
+	frame	data/chars/Snake/a203.gif
+	frame	data/chars/Snake/a203.gif
+	attack  0
+	frame	data/chars/Snake/a202.gif
+
+
+
+
+anim special
+        mponly  1
+        mpcost  0
+	loop	0
+	delay	8
+	offset	99 172
+	bbox	88 124 19 49
+	sound	data/sounds/punch.wav
+        frame	data/chars/Snake/punch1.gif
+        frame	data/chars/Snake/punch2.gif
+	frame	data/chars/Snake/Intro1.gif
+	custknife BombS
+	throwframe 2 2
+	frame	data/chars/Snake2/attkn2.gif
+
+
+
+
+anim freespecial
+        mponly  1
+        mpcost  0
+	loop	0
+	delay	8
+	offset	99 172
+	bbox	88 124 19 49
+	sound	data/sounds/punch.wav
+        frame	data/chars/Snake/axekick1.gif
+	attack  96 113 21 54 8 0 0 0 12
+        frame	data/chars/Snake/axekick2.gif
+	attack  0
+        frame	data/chars/Snake/axekick3.gif
+	attack  96 113 21 54 8 1 0 0 12
+        frame	data/chars/Snake/axekick3.gif
+        frame	data/chars/Snake/axekick2.gif
+	attack  0         
+        frame	data/chars/Snake/axekick1.gif
+
+
+
+
+
+anim freespecial2
+        mponly  1
+        mpcost  0
+	loop	0
+	delay	8
+	offset	99 172
+	bbox	0 0 0 0
+	sound	data/sounds/punch.wav
+        frame	data/chars/Snake/punch1.gif
+	attack  74 123 18 39 10 1 0 0 12
+        frame	data/chars/Snake/punch2.gif
+        frame	data/chars/Snake/punch2.gif
+	attack  0 
+        frame	data/chars/Snake/punch3.gif
+
+
+
+
+
+
+
+
+anim jump
+	loop	0
+	delay	33
+	offset	99 172
+	frame	data/chars/Snake/ju1.gif
+	frame	data/chars/Snake/ju2.gif
+	bbox	88 124 19 49
+	delay   12
+	offset	99 155
+
+
+
+
+
+anim jumpattack
+	loop	0
+	delay	12
+	offset	99 172
+	bbox	88 124 19 49
+	sound	data/sounds/punch.wav
+	frame	data/chars/Snake/ak1.gif
+	attack  101 112 25 51 7 1 0 0 25
+	frame	data/chars/Snake/ak2.gif
+	frame	data/chars/Snake/ak2.gif	
+	attack  0 0 0 0 0 0 0 0 0 0
+	frame	data/chars/Snake/ak3.gif
+
+
+
+anim pain
+	loop	0
+	delay   16
+	offset	99 172
+	bbox	88 124 19 49
+	frame	data/chars/Snake/pain.gif
+	delay   30
+	frame	data/chars/Snake/pain2.gif
+
+
+anim fall
+	loop	0
+	offset	99 172
+	delay  29
+	frame	data/chars/Snake/fall1.gif
+	frame	data/chars/Snake/fall2.gif
+	delay   20
+	frame	data/chars/Snake/fall3.gif
+
+
+
+
+anim rise
+	loop	0
+	offset	99 172
+	delay   20
+	frame	data/chars/Snake/fall3.gif
+	delay	12
+	frame	data/chars/Snake/get1.gif
+	frame	data/chars/Snake/get1.gif
+
+
+
+
+
+

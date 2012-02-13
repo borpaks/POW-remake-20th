@@ -1,0 +1,76 @@
+
+
+colourselect 1
+nolost 1
+spdirection  1 1 1 1
+nodropen 1
+autoland  2
+versusdamage 0
+
+nochipdeath 1
+blockratio 3
+autoland 0
+nocost 0
+nolost 1
+ajspecial 1 
+
+# effetti
+load	Dust		data/chars/misc/dust.txt
+load	Flash		data/chars/misc/flash.txt
+load	Flash2       	data/chars/misc/flash2.txt
+load	Flash3       	data/chars/misc/flash3.txt
+load	Flash4       	data/chars/misc/flash4.txt
+
+# personaggi
+
+load    Snake        data/chars/Snake/Snake.txt
+load    Snake2       data/chars/Snake/Snake2.txt
+load    Snake3       data/chars/Snake/Snake3.txt
+load    Snake4       data/chars/Snake/Snake4.txt
+
+# armi
+load    sp         data/chars/misc/sp.txt
+know    Knife      data/chars/misc2/Knife.txt
+know    KnifeS     data/chars/spari/KnifeS.txt
+know    Mitra      data/chars/misc2/Mitra.txt
+know    Bullet     data/chars/spari/Bullet.txt
+know    Bomb       data/chars/misc2/Bomb.txt
+know    BombS      data/chars/spari/BombS.txt
+
+
+# oggetti
+load    Gold       data/chars/misc/gold.txt
+know    1up        data/chars/misc/1up.txt
+know    Meat        data/chars/misc/meat.txt
+know    DrumB       data/chars/misc/DrumB.txt
+
+
+
+
+# nemici
+know    greg         data/chars/greg/greg.txt
+know    gregKn       data/chars/gregKn/gregKn.txt
+know    gregMi       data/chars/gregMi/gregMi.txt
+know    afro         data/chars/afro/afro.txt
+know    afroBo       data/chars/afroBo/afroBo.txt
+know    Sergente     data/chars/Sergente/Sergente.txt
+know    Biker        data/chars/Biker/Biker.txt
+know    Boss         data/chars/Boss/Boss.txt
+
+
+# Trappole
+know    DrumR       data/chars/misc/DrumR.txt
+know    Gangio      data/chars/trappole/Gangio.txt
+know    Fuoco       data/chars/trappole/Fuoco.txt
+
+
+
+
+# altro
+load    elicott      data/chars/oggetti/elicott.txt
+load    elicott2     data/chars/oggetti/elicott2.txt
+
+
+
+
+

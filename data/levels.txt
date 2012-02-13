@@ -1,0 +1,313 @@
+
+noslowfx   1
+hiscorebg 1
+Maxplayers 2
+
+
+#-----------Timer, Lifebar, MPbar.
+
+timeloc	    147	4 16 15	1
+lbarsize 68 3 1 1 0 1 1 -300 -300
+rush 1 2 HITS 5 4 MAX 5 4   
+p1rush 7 216 37 208 75 216 101 208
+p2rush 186 216 216 208 254 216 280 208
+loadingbg2 0 
+hiscorebg 1
+completebg 1
+
+#-----------Player 1, Enemy 1.
+
+p1life	    70 222
+p1icon	    15    211
+p1lifex     0    500     
+p1lifen     4  216
+p1score     38 206
+p1namej     30  216  30 216  30 216
+p1mp        18   2229 
+
+e1name      13   2227
+e1life	    20   2237 
+e1icon      3    2226
+
+#-----------Player 2, Enemy 2.
+
+
+p2life	    245 222
+p2icon	    190	 211
+p2lifex     0    500   
+p2lifen     179  216
+p2score     213  206
+p2namej     196   216  206 216  206 216      
+p2mp        18   2229 
+
+e2icon      172	 2226
+e2name      182  2227
+e2life      189  2237 
+
+
+#-------Selezione
+
+p1smenu  42 260  42 150
+p2smenu   276 260 276 150
+p3smenu  198 260 198 150
+p4smenu 120 260 120 150
+
+
+
+#-------Modalita'
+
+set	Easy
+
+lives 4
+typemp 1
+skipselect player player
+cansave 1
+noshare 1
+
+
+
+
+
+# Stage 1 : La Fuga #
+
+
+z 77 200 160
+scene   data/scenes/cutscene/stage1-1.txt
+file	data/levels/stage1-1.txt
+scene   data/scenes/cutscene/stage1-2.txt
+z 115 182 160
+file	data/levels/stage1-2.txt
+scene   data/scenes/cutscene/stage1-3.txt
+z 33 195 160
+file	data/levels/stage1-3.txt
+scene   data/scenes/cutscene/01.txt
+next
+
+# Stage 2 : La trappola #
+z 148 233 210
+file	data/levels/stage2-1.txt
+scene   data/scenes/cutscene/02.txt
+next
+
+# Stage 3 : Nella Giungla #
+z 77 204 210
+file	data/levels/stage3-1.txt
+scene   data/scenes/cutscene/stage3-1.txt
+z 119 201 210
+file	data/levels/stage3-2.txt
+z 155 201 210
+file	data/levels/stage3-3.txt
+scene   data/scenes/cutscene/03.txt
+next
+
+# Stage 4 : La resa dei conti #
+z 120 201 210
+file	data/levels/stage4-1.txt
+scene   data/scenes/cutscene/stage4-1.txt
+z 155 201 210
+file	data/levels/stage4-2.txt
+scene   data/scenes/cutscene/stage4-2.txt
+z 61 201 210
+file	data/levels/stage4-3.txt
+scene   data/scenes/cutscene/04.txt
+z 129 201 210
+file	data/levels/stage4-4.txt
+scene   data/scenes/cutscene/05.txt
+
+end
+
+#----------------------------------#
+
+set	Normal
+
+lives 4
+typemp 1
+skipselect player player
+cansave 1
+noshare 1
+
+
+
+# Stage 1 : La Fuga #
+
+
+z 77 200 160
+scene   data/scenes/cutscene/stage1-1.txt
+file	data/levels/normal/stage1-1.txt
+scene   data/scenes/cutscene/stage1-2.txt
+z 115 182 160
+file	data/levels/normal/stage1-2.txt
+scene   data/scenes/cutscene/stage1-3.txt
+z 33 195 160
+file	data/levels/normal/stage1-3.txt
+scene   data/scenes/cutscene/01.txt
+next
+
+# Stage 2 : La trappola #
+z 148 233 210
+file	data/levels/normal/stage2-1.txt
+scene   data/scenes/cutscene/02.txt
+next
+
+# Stage 3 : Nella Giungla #
+z 77 204 210
+file	data/levels/normal/stage3-1.txt
+scene   data/scenes/cutscene/stage3-1.txt
+z 119 201 210
+file	data/levels/normal/stage3-2.txt
+z 155 201 210
+file	data/levels/normal/stage3-3.txt
+scene   data/scenes/cutscene/03.txt
+next
+
+# Stage 4 : La resa dei conti #
+z 120 201 210
+file	data/levels/normal/stage4-1.txt
+scene   data/scenes/cutscene/stage4-1.txt
+z 155 201 210
+file	data/levels/normal/stage4-2.txt
+scene   data/scenes/cutscene/stage4-2.txt
+z 61 201 210
+file	data/levels/normal/stage4-3.txt
+scene   data/scenes/cutscene/04.txt
+z 129 201 210
+file	data/levels/normal/stage4-4.txt
+scene   data/scenes/cutscene/05.txt
+
+end
+
+#----------------------------------#
+
+set	Hard
+
+lives 4
+typemp 1
+skipselect player player
+cansave 1
+noshare 1
+
+
+
+# Stage 1 : La Fuga #
+
+z 77 200 160
+scene   data/scenes/cutscene/stage1-1.txt
+file	data/levels/hard/stage1-1.txt
+scene   data/scenes/cutscene/stage1-2.txt
+z 115 182 160
+file	data/levels/hard/stage1-2.txt
+scene   data/scenes/cutscene/stage1-3.txt
+z 33 195 160
+file	data/levels/hard/stage1-3.txt
+scene   data/scenes/cutscene/01.txt
+next
+
+# Stage 2 : La trappola #
+z 148 233 210
+file	data/levels/hard/stage2-1.txt
+scene   data/scenes/cutscene/02.txt
+next
+
+# Stage 3 : Nella Giungla #
+z 77 204 210
+file	data/levels/hard/stage3-1.txt
+scene   data/scenes/cutscene/stage3-1.txt
+z 119 201 210
+file	data/levels/hard/stage3-2.txt
+z 155 201 210
+file	data/levels/hard/stage3-3.txt
+scene   data/scenes/cutscene/03.txt
+next
+
+# Stage 4 : La resa dei conti #
+z 120 201 210
+file	data/levels/hard/stage4-1.txt
+scene   data/scenes/cutscene/stage4-1.txt
+z 155 201 210
+file	data/levels/hard/stage4-2.txt
+scene   data/scenes/cutscene/stage4-2.txt
+z 61 201 210
+file	data/levels/hard/stage4-3.txt
+scene   data/scenes/cutscene/04.txt
+z 129 201 210
+file	data/levels/hard/stage4-4.txt
+scene   data/scenes/cutscene/05.txt
+
+end
+
+
+#----------------------------------#
+
+set	Extreme
+
+lives 4
+typemp 1
+skipselect player player
+cansave 1
+noshare 1
+
+
+
+# Stage 1 : La Fuga #
+
+
+z 77 200 160
+scene   data/scenes/cutscene/stage1-1.txt
+file	data/levels/extreme/stage1-1.txt
+scene   data/scenes/cutscene/stage1-2.txt
+z 115 182 160
+file	data/levels/extreme/stage1-2.txt
+scene   data/scenes/cutscene/stage1-3.txt
+z 33 195 160
+file	data/levels/extreme/stage1-3.txt
+scene   data/scenes/cutscene/01.txt
+next
+
+# Stage 2 : La trappola #
+z 148 233 210
+file	data/levels/extreme/stage2-1.txt
+scene   data/scenes/cutscene/02.txt
+next
+
+# Stage 3 : Nella Giungla #
+z 77 204 210
+file	data/levels/extreme/stage3-1.txt
+scene   data/scenes/cutscene/stage3-1.txt
+z 119 201 210
+file	data/levels/extreme/stage3-2.txt
+z 155 201 210
+file	data/levels/extreme/stage3-3.txt
+scene   data/scenes/cutscene/03.txt
+next
+
+# Stage 4 : La resa dei conti #
+z 120 201 210
+file	data/levels/extreme/stage4-1.txt
+scene   data/scenes/cutscene/stage4-1.txt
+z 155 201 210
+file	data/levels/extreme/stage4-2.txt
+scene   data/scenes/cutscene/stage4-2.txt
+z 61 201 210
+file	data/levels/extreme/stage4-3.txt
+scene   data/scenes/cutscene/04.txt
+z 129 201 210
+file	data/levels/extreme/stage4-4.txt
+scene   data/scenes/cutscene/05.txt
+
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

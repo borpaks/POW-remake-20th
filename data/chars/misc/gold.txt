@@ -1,0 +1,23 @@
+name	Gold
+health	0
+score	5000
+type	item
+shadow	0
+
+subject_to_wall 0
+
+
+anim idle
+	loop	1
+	offset	99 172
+	bbox	0 0 17 13
+	delay	8
+	frame	data/chars/misc/gold1.gif
+	frame	data/chars/misc/gold1.gif
+	frame	data/chars/misc/gold1.gif
+	frame	data/chars/misc/gold1.gif
+	frame	data/chars/misc/gold1.gif
+	frame	data/chars/misc/gold1.gif
+	frame	data/chars/misc/gold2.gif
+
+

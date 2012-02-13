@@ -1,0 +1,21 @@
+name	 Bullet
+health  1
+type	pshot
+shootnum  7
+speed	13
+candamage   player enemy obstacle 
+
+
+
+
+anim idle
+	loop	1
+	delay	3
+	offset	80 200
+	hitfx   data/sounds/beat1.wav
+	hitflash Flash2
+	attack3  93 171 18 8 100 30 0 0 13
+	frame	data/chars/spari/bullet.gif
+	frame	data/chars/spari/bullet.gif
+
+

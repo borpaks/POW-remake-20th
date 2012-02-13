@@ -1,0 +1,396 @@
+#stage4 La resa dei conti#
+
+notime 1
+music		data/music/lv4.ogg
+panel		data/bgs/stage4/back3.gif 
+panel		data/bgs/stage4/back3b.gif 
+frontpanel      data/bgs/stage4/front3.gif 
+
+wall 0 207 -80 0 230 200 1110 1000
+
+wall 0 155 -80 0 308 308 1110 1000
+
+wall 260 91 -80 0 640 640 1110 1000
+
+wall 444 97 -80 0 640 640 1110 1000
+
+wall 460 128 -80 0 669 669 1110 1000
+
+wall 2355 238 -80 0 39 106 100 1000
+
+wall 2999 92 -80 0 660 660 1110 1000
+
+wall 3418 150 -80 0 460 460 1110 1000
+
+wall 3837 120 -80 0 3412 3412 1110 1000
+
+
+
+hole 704 208
+
+hole 900 208
+
+hole 999 208
+
+hole 1184 190
+
+hole 1184 208
+
+hole 1220 190
+
+hole 1290 190
+
+hole 1360 190
+
+hole 1460 190
+
+hole 1560 190
+
+hole 1660 190
+
+hole 1760 190
+
+hole 1860 190
+
+hole 1960 190
+
+hole 2030 190
+
+hole 2110 190
+
+hole 2120 208
+
+hole 1220 208
+
+hole 1290 208
+
+hole 1360 208
+
+hole 1460 208
+
+hole 1560 208
+
+hole 1660 208
+
+hole 1760 208
+
+hole 1860 208
+
+hole 1960 208
+
+hole 2030 208
+
+hole 2110 208
+
+
+order a
+
+
+spawn1  170 103
+spawn2  130 113
+
+
+
+spawn	DrumR
+coords	712 129
+at	0
+
+spawn	DrumR
+coords	712 152
+at	0
+
+spawn	DrumR
+coords	752 129
+at	0
+
+spawn	DrumR
+coords	752 152
+at	0
+
+spawn	DrumR
+coords	802 129
+at	0
+
+spawn	DrumR
+coords	802 152
+at	0
+
+spawn	DrumR
+coords	852 129
+at	0
+
+spawn	DrumR
+coords	852 152
+at	0
+
+spawn	DrumR
+coords	902 129
+at	0
+
+spawn	DrumR
+coords	902 152
+at	0
+
+spawn	DrumR
+coords	952 129
+at	0
+
+spawn	DrumR
+coords	952 152
+at	0
+
+spawn	DrumR
+coords	1002 129
+at	0
+
+spawn	DrumR
+coords	1002 152
+at	0
+
+
+spawn	fuoco
+coords	1052 152
+at	0
+
+spawn	fuoco
+coords	1052 129
+at	0
+
+
+spawn	fuoco
+coords	1132 152
+at	0
+
+
+
+spawn	fuoco
+coords	1177 80
+at	0
+
+spawn	fuoco
+coords	1274 72
+at	0
+
+
+spawn	fuoco
+coords	1204 132
+at	0
+
+spawn	fuoco
+coords	1304 122
+at	0
+
+
+spawn	fuoco
+coords	1294 172
+at	0
+
+spawn	fuoco
+coords	1244 105
+at	0
+
+
+spawn	DrumB
+item    gold
+coords	324 107
+at	0
+
+
+
+spawn	gregKn
+item    knife
+coords	-47 67
+at	1650
+
+spawn	afro
+map     5
+coords	420 90
+at	1650
+
+spawn	gregMi
+item    mitra
+map     1
+coords	-37 77
+at	1650
+
+spawn	afroBo
+item    bomb
+map     2
+coords	420 80
+at	1650
+
+spawn	gregKn
+item    knife
+map     5
+2pspawn 1
+coords	470 85
+at	1650
+
+spawn	gregMi
+item    mitra
+map     3
+2pspawn 1
+coords	-20 77
+at	1650
+
+
+wait
+at 1750
+
+
+
+
+spawn	sergente
+coords	-47 67
+at	1950
+
+spawn	afro
+map     5
+coords	420 90
+at	1950
+
+spawn	afroBo
+map     3
+coords	-37 77
+at	1950
+
+spawn	afroBo
+item    bomb
+map     2
+coords	420 80
+at	1950
+
+spawn	gregKn
+map     2
+item    knife
+2pspawn 1
+coords	470 85
+at	1950
+
+
+spawn	afroBo
+map     1
+2pspawn 1
+coords	-20 77
+at	1950
+
+wait
+at 2000
+
+spawn	biker
+coords	330 66
+at	2210
+
+spawn	biker
+coords	400 100
+at	2250
+
+spawn	biker
+coords	420 133
+at	2290
+
+spawn	gregKn
+item    knife
+coords	-47 67
+at	2550
+
+spawn	afro
+map     5
+coords	420 90
+at	2550
+
+spawn	greg
+map     1
+coords	-37 77
+at	2550
+
+spawn	afro
+map     2
+coords	420 200
+at	2550
+
+spawn	greg
+map     5
+2pspawn 1
+coords	470 185
+at	2550
+
+spawn	greg
+map     1
+2pspawn 1
+coords	-20 177
+at	2550
+
+
+spawn	sergente
+map     5
+coords	420 190
+at	2550
+
+spawn	sergente
+map     3
+2pspawn 1
+coords	-20 90
+at	2550
+
+
+wait
+at 2600
+
+spawn	biker
+coords	330 66
+at	2710
+
+spawn	biker
+coords	400 100
+at	2750
+
+spawn	biker
+coords	420 133
+at	2790
+
+spawn	biker
+coords	330 66
+at	2855
+
+spawn	boss
+boss    1
+coords	-20 190
+at	3042
+
+group 1 1
+at 3100
+
+
+spawn	afro
+map     2
+coords	-40 90
+at	3042
+
+spawn	greg
+map     4
+coords	-37 77
+at	3042
+
+
+spawn	greg
+map     2
+2pspawn 1
+coords	-70 185
+at	3042
+
+spawn	sergente
+coords	420 190
+at	3042
+
+group 1 1
+at 350
+
+
+
+
+
+
+
+
+

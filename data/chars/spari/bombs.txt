@@ -1,0 +1,57 @@
+name	 BombS
+health  1
+type	pshot
+shootnum  7
+speed	1
+remove 0
+candamage   enemy obstacle player
+
+
+
+palette	     data/chars/spari/bomb2.gif
+alternatepal data/chars/boom/exp01.gif
+
+anim idle
+	loop   0
+	delay 6
+	hitflash Flash3
+        offset 99 172
+	hitfx   data/sounds/cassa.wav
+	jumpframe  data/chars/spari/bomb1.gif  3 0 0
+	frame	data/chars/spari/bomb2.gif
+	frame	data/chars/spari/bomb3.gif
+	frame	data/chars/spari/bomb4.gif
+	frame	data/chars/spari/bomb1.gif
+	frame	data/chars/spari/bomb2.gif
+	frame	data/chars/spari/bomb3.gif
+	frame	data/chars/spari/bomb4.gif 
+	frame	data/chars/spari/bomb1.gif
+	frame	data/chars/misc2/bomb2.gif
+	frame	data/chars/spari/bomb1.gif
+	frame	data/chars/misc2/bomb2.gif
+	frame	data/chars/spari/bomb1.gif
+	frame	data/chars/misc2/bomb2.gif
+	offset	150  212
+	sound   data/sounds/bang.wav
+        delay   7
+        drawmethod 256 256 0 0 0 0 1 0 0 0
+        move 0
+	frame	data/chars/boom/exp01.gif 
+	attack4   100 88 111 140 60 1 0 10
+	frame	data/chars/boom/exp02.gif
+	frame	data/chars/boom/exp03.gif
+	frame	data/chars/boom/exp04.gif
+	frame	data/chars/boom/exp05.gif
+	frame	data/chars/boom/exp06.gif
+	frame	data/chars/boom/exp07.gif
+	attack4   0 0 0 0
+	frame	data/chars/boom/exp08.gif
+	frame	data/chars/boom/exp09.gif
+	frame	data/chars/boom/exp10.gif
+	frame	data/chars/boom/exp11.gif
+	frame	data/chars/boom/exp12.gif
+	frame	data/chars/boom/exp13.gif
+	frame	data/chars/misc/empty.gif
+
+
+

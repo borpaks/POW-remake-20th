@@ -1,0 +1,41 @@
+name	fuoco
+health  0
+speed	6
+type	trap
+nomove 1
+shadow	0
+noquake 1
+dust    dust
+gfxshadow 1
+
+
+
+
+
+anim idle
+	loop	1
+	offset	99 172
+	delay	10
+	hitfx	data/sounds/burn.wav
+	frame	data/chars/trappole/fuoco1.gif
+        Attack  86 136 18 47 50 1 1 0
+	frame	data/chars/trappole/fuoco2.gif
+	frame	data/chars/trappole/fuoco3.gif
+	frame	data/chars/trappole/fuoco2.gif
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

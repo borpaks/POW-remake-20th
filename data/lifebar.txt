@@ -1,0 +1,15 @@
+blackbox 0 0 0 
+whitebox 255 255 255 
+color25 255 0 0
+color50  255 0 0
+
+color100 0 81 248
+color200 0 81 248
+color300 0 81 248
+color400 0 81 248
+color500 192 192 192
+
+colormagic	68 252 98
+
+shadowcolor 192 192 192
+

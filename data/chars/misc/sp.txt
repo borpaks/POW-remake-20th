@@ -1,0 +1,23 @@
+name    sp
+health	100
+type	pshot
+nolife 1
+shadow  0
+
+
+anim idle
+	loop	1
+	delay	50
+	offset	85 202
+	bbox	5 4 19 16
+	frame	data/chars/misc/meat.gif
+
+
+
+
+
+
+
+
+
+

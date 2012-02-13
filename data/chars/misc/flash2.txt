@@ -1,0 +1,20 @@
+# Hit flash
+
+name	Flash2
+type	none
+shadow	0
+
+
+
+anim idle
+	loop	0
+	delay	3
+	offset	71 80
+	frame	data/chars/misc/blood1.gif
+	frame	data/chars/misc/blood2.gif
+	frame	data/chars/misc/blood3.gif
+	frame	data/chars/misc/blood4.gif
+	frame	data/chars/misc/blood5.gif
+	frame	data/chars/misc/blood6.gif
+
+	

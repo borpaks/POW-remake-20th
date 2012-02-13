@@ -1,0 +1,23 @@
+name	Meat
+health	100
+type	item
+nolife 1
+shadow  0
+
+subject_to_wall 0
+
+
+
+anim idle
+	loop	1
+	delay	8
+	offset	99 172
+	bbox	5 4 19 16
+	frame	data/chars/misc/meat.gif
+	frame	data/chars/misc/meat.gif
+	frame	data/chars/misc/meat.gif
+	frame	data/chars/misc/meat.gif
+	frame	data/chars/misc/meat.gif
+	frame	data/chars/misc/meat2.gif
+
+

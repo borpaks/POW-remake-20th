@@ -1,0 +1,27 @@
+name	Elicott2
+type   endlevel
+branch finale
+shadow	0
+antigravity 100
+
+
+
+
+
+
+
+
+anim idle
+	loop	1
+	delay	16
+	offset	99 172
+        bbox 75 103 61 69
+	frame	data/chars/oggetti/elicott1.gif
+	frame	data/chars/oggetti/elicott2.gif
+	frame	data/chars/oggetti/elicott3.gif
+	frame	data/chars/oggetti/elicott2.gif
+
+
+
+
+

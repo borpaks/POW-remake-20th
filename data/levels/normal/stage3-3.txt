@@ -1,0 +1,126 @@
+#stage3 Nella giungla#
+
+notime 1
+music		data/music/lv3.ogg
+background      data/bgs/stage3/sfondo.gif 
+panel		data/bgs/stage3/back3.gif 
+frontpanel       data/bgs/stage1/front22.gif 
+
+wall 0 207 -80 0 45 45 240 1000
+
+wall 285 207 -80 0 46 46 240 1000
+
+
+
+direction UP
+
+
+order a
+
+
+spawn1  130 83
+spawn2  100 70
+
+
+
+
+spawn	afro
+map     1
+coords	88 199
+at	0
+
+
+spawn	gregKn
+map     4
+coords	236 160
+at	111
+
+
+group 2 2
+at   0
+
+spawn	afro
+coords	88 189
+at	0
+
+
+spawn	gregKn
+map     1
+coords	211 160
+at	0
+
+group 2 2
+at   0
+
+
+spawn	afroBo
+item    bomb
+map     1
+coords	88 199
+at	0
+
+
+spawn	Afrobo
+item    bomb
+map     4
+coords	236 160
+at	0
+
+group 2 2
+at   0
+
+spawn	afro
+map     4
+coords	88 189
+at	0
+
+
+spawn	gregMi
+item    Mitra
+map     1
+coords  67 160
+at	0
+
+group 2 2
+at   0
+
+spawn	Sergente
+map     5
+coords	88 189
+at	0
+
+
+spawn	Sergente
+map     4
+coords  67 160
+at	0
+
+group 2 2
+at   0
+
+spawn	Sergente
+map     3
+coords	188 189
+at	0
+
+
+spawn	Sergente
+map     2
+coords  167 160
+at	0
+
+group 2 2
+at   0
+
+
+
+
+
+
+
+
+
+
+
+
+

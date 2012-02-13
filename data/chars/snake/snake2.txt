@@ -1,0 +1,149 @@
+name	   Snake2
+type	   none
+shadow	   0
+noquake    1
+playshotno sp
+jumpheight 3
+typeshot   0
+icon	   data/chars/Snake/iconw1.gif
+diesound   data/sounds/Snake1.wav
+gfxshadow  0
+
+
+
+load	knifeS
+
+palette   data/chars/Snake/alter1.gif
+alternatepal   data/chars/Snake/alter2.gif 
+
+
+
+remap	 data/chars/Snake/alter1.gif data/chars/Snake/alter2.gif 
+
+
+
+
+
+
+
+
+
+anim idle
+	loop	1
+	delay	33
+	offset	99 172
+	bbox	88 124 19 49
+	frame	data/chars/Snake2/idleKn1.gif
+	frame	data/chars/Snake2/idleKn2.gif
+
+
+
+
+
+
+anim walk
+	loop	1
+	delay	18
+	offset	99 172
+	bbox	88 124 19 49
+	frame	data/chars/Snake2/wkkn1.gif
+	frame	data/chars/Snake2/wkkn2.gif
+	frame	data/chars/Snake2/wkkn3.gif
+
+
+
+
+anim get
+	loop	0
+	offset	99 172
+	delay  19
+	frame	data/chars/Snake/get1.gif
+        delay 22
+	frame	data/chars/Snake/get1.gif
+
+
+anim attack1 
+        mponly  1
+        mpcost  0
+	loop	0
+	delay	8
+	offset	99 172
+	bbox	88 124 19 49
+	frame	data/chars/Snake2/attkn1.gif
+	frame	data/chars/Snake2/attkn2.gif
+	sound	data/sounds/lancio.wav
+	custknife knifeS
+	throwframe 2 2
+	frame	data/chars/Snake2/attkn3.gif
+
+
+
+
+
+
+anim special
+        mponly  1
+        mpcost  0
+	loop	0
+	delay	8
+	offset	99 172
+	bbox	88 124 19 49
+	frame	data/chars/Snake2/attkn1.gif
+	frame	data/chars/Snake2/attkn2.gif
+	sound	data/sounds/lancio.wav
+	custknife knifeS
+	throwframe 2 2
+	frame	data/chars/Snake2/attkn3.gif
+
+
+
+
+
+
+
+
+
+anim jump
+	loop	0
+	delay	33
+	offset	99 172
+	frame	data/chars/Snake2/juKn1.gif
+	frame	data/chars/Snake2/juKn2.gif
+	bbox	88 124 19 49
+	delay   12
+
+
+
+
+
+
+anim jumpattack
+	loop	0
+	delay	12
+	offset	99 172
+	bbox	88 124 19 49
+	sound	data/sounds/punch.wav
+	frame	data/chars/Snake2/akkn1.gif
+	attack  101 112 25 51 7 1 0 0 25
+	frame	data/chars/Snake2/akkn2.gif
+	frame	data/chars/Snake2/akkn2.gif	
+	attack  0 0 0 0 0 0 0 0 0 0
+	frame	data/chars/Snake2/akkn3.gif
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

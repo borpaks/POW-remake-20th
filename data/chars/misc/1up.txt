@@ -1,0 +1,24 @@
+name	1up
+health	0
+type	item
+nolife  1
+shadow  0
+
+
+subject_to_wall 0
+
+anim idle
+	loop	1
+	delay	8
+	offset	99 172
+	bbox	5 4 19 16
+	frame	data/chars/misc/1up.gif
+	frame	data/chars/misc/1up.gif
+	frame	data/chars/misc/1up.gif
+	frame	data/chars/misc/1up.gif
+	frame	data/chars/misc/1up.gif
+	frame	data/chars/misc/1up.gif
+	frame	data/chars/misc/1up.gif
+	frame	data/chars/misc/1up2.gif
+
+

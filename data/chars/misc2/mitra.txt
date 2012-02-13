@@ -1,0 +1,24 @@
+name	 Mitra
+health   0
+type     item
+counter  4
+subtype  weapon
+weapnum  2
+nolife   1
+shootnum  7
+
+
+subject_to_wall 0
+
+
+anim idle
+	loop   1
+	delay  40
+	offset	82 172
+        bbox	93 171 18 8
+	frame  data/chars/misc2/Mitra1.gif
+        delay   11
+	frame  data/chars/misc2/Mitra2.gif
+
+
+ 

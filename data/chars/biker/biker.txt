@@ -1,0 +1,101 @@
+name	Biker
+type	Obstacle
+speed  1
+health	1
+gfxshadow 1
+falldie 1
+diesound data/sounds/metadie.wav
+candamage player
+nodieblink    3
+palette	     data/chars/biker/biker1.gif   
+alternatepal data/chars/boom/exp01.gif
+
+
+
+
+
+anim idle
+	loop	0
+	delay	13
+	offset	99 172
+	bbox	83 120 27 56 
+	attack	80 158 30 20 10 1
+	sound   data/sounds/bike.wav
+	jumpframe	data/chars/Biker/Biker1.gif 0 1 0
+	frame	data/chars/Biker/Biker2.gif
+	frame	data/chars/Biker/Biker1.gif
+	frame	data/chars/Biker/Biker2.gif
+	frame	data/chars/Biker/Biker1.gif
+	frame	data/chars/Biker/Biker2.gif
+	frame	data/chars/Biker/Biker1.gif
+	frame	data/chars/Biker/Biker2.gif
+	frame	data/chars/Biker/Biker1.gif
+	frame	data/chars/Biker/Biker2.gif
+	frame	data/chars/Biker/Biker1.gif
+	frame	data/chars/Biker/Biker2.gif
+	frame	data/chars/Biker/Biker1.gif
+	frame	data/chars/Biker/Biker2.gif
+	frame	data/chars/Biker/Biker1.gif
+	frame	data/chars/Biker/Biker2.gif
+	frame	data/chars/Biker/Biker1.gif
+	frame	data/chars/Biker/Biker2.gif
+	frame	data/chars/Biker/Biker1.gif
+	frame	data/chars/Biker/Biker2.gif
+	frame	data/chars/Biker/Biker1.gif
+	frame	data/chars/Biker/Biker2.gif
+	frame	data/chars/Biker/Biker2.gif
+	frame	data/chars/Biker/Biker1.gif
+	frame	data/chars/Biker/Biker2.gif
+	frame	data/chars/Biker/Biker1.gif
+	frame	data/chars/Biker/Biker2.gif
+	frame	data/chars/Biker/Biker1.gif
+	frame	data/chars/Biker/Biker2.gif
+	frame	data/chars/Biker/Biker1.gif
+	frame	data/chars/Biker/Biker2.gif
+	frame	data/chars/Biker/Biker1.gif
+	frame	data/chars/Biker/Biker2.gif
+
+anim fall
+	offset	150  212
+	sound   data/sounds/bang.wav
+	blast   100 88 111 140 60 1 0 10
+        delay   9
+drawmethod 256 256 0 0 0 0 1 0 0 0
+	frame	data/chars/boom/exp01.gif
+	frame	data/chars/boom/exp02.gif
+	frame	data/chars/boom/exp03.gif
+	frame	data/chars/boom/exp04.gif
+	frame	data/chars/boom/exp05.gif
+	frame	data/chars/boom/exp06.gif
+	frame	data/chars/boom/exp07.gif
+	blast   0 0 0 0
+	frame	data/chars/boom/exp08.gif
+	frame	data/chars/boom/exp09.gif
+	frame	data/chars/boom/exp10.gif
+	frame	data/chars/boom/exp11.gif
+	frame	data/chars/boom/exp12.gif
+	frame	data/chars/boom/exp13.gif
+	frame	data/chars/misc/empty.gif
+
+anim death
+	offset	150  212
+	sound   data/sounds/bang.wav
+        delay   9
+        drawmethod 256 256 0 0 0 0 1 0 0 0
+	frame	data/chars/boom/exp01.gif
+	frame	data/chars/boom/exp02.gif
+	frame	data/chars/boom/exp03.gif
+	frame	data/chars/boom/exp04.gif
+	frame	data/chars/boom/exp05.gif
+	frame	data/chars/boom/exp06.gif
+	frame	data/chars/boom/exp07.gif
+	frame	data/chars/boom/exp08.gif
+	frame	data/chars/boom/exp09.gif
+	frame	data/chars/boom/exp10.gif
+	frame	data/chars/boom/exp11.gif
+	frame	data/chars/boom/exp12.gif
+	frame	data/chars/boom/exp13.gif
+	frame	data/chars/misc/empty.gif
+
+
+

@@ -1,0 +1,22 @@
+name	 Bomb
+health   0
+type     item
+counter  4
+subtype  weapon
+weapnum  3
+nolife   1
+shootnum  3
+
+subject_to_wall 0
+
+anim idle
+	loop   1
+	delay  40
+	offset	82 172
+	bbox	93 171 18 8
+	frame  data/chars/misc2/bomb1.gif
+        delay   11
+	frame  data/chars/misc2/bomb2.gif
+
+
+ 

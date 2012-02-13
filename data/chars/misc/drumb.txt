@@ -1,0 +1,26 @@
+name	DrumB
+health	 1
+type	 obstacle
+nodrop   1
+nolife  1
+noatflash 1
+candamage	player enemy obstacle
+
+load meat
+
+anim idle
+	delay	1000
+	offset	99  172
+	bbox	80 121 34 52
+	frame	data/chars/misc/DrumB.gif
+
+
+
+anim fall
+        loop    1
+	delay	12
+	offset	82 172
+	bbox	63 99 41 79 
+	frame	data/chars/misc/DrumB.gif
+
+

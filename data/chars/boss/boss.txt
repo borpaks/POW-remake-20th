@@ -1,0 +1,135 @@
+name	boss
+health	400
+speed	6
+type	enemy
+shadow	0
+noquake 1
+dust    dust
+nodieblink    3
+gfxshadow 0
+
+palette   data/chars/boss/alter1.gif
+
+aggression 50
+
+diesound data/sounds/die2.wav
+
+
+
+
+
+
+
+anim idle
+	loop	1
+	offset	99  172
+	bbox	83 120 27 56 
+	delay	16
+	frame	data/chars/boss/idle0.gif
+
+
+
+
+anim walk
+	loop	1
+	offset	99  172
+	bbox	83 120 27 56 
+	delay   18
+	frame	data/chars/boss/wk1.gif
+	frame	data/chars/boss/wk2.gif
+	frame	data/chars/boss/wk3.gif
+	frame	data/chars/boss/wk4.gif
+	frame	data/chars/boss/wk5.gif
+
+
+anim pain
+	loop	0
+	delay	13
+	offset	99 172
+	bbox	83 120 27 56 
+	frame	data/chars/boss/pain1.gif
+	frame	data/chars/boss/pain2.gif
+
+anim fall
+	loop	0
+	delay	25
+	offset	99  172
+	frame	data/chars/boss/fall1.gif
+	frame	data/chars/boss/fall2.gif
+	attack  0 0 0 0 0 0
+	frame	data/chars/boss/fall3.gif
+
+anim rise
+	loop	0
+	offset	99  172
+	delay	15
+	frame	data/chars/boss/rise.gif
+
+
+
+
+anim attack1
+	hitfx	data/sounds/beat4.wav
+	range	0 34
+	loop	0
+	offset	99  172
+	bbox	83 120 27 56 
+	delay   12
+	frame	data/chars/boss/a101.gif
+	attack  106 130 24 31 20 1 0 0 1
+	frame	data/chars/boss/a104.gif
+	frame	data/chars/boss/a104.gif
+	attack  0
+	frame	data/chars/boss/a103.gif
+
+anim attack2
+	loop	0
+	delay	7
+	offset	99 172
+	range	100 190
+	bbox	88 124 19 49
+	frame	data/chars/boss/Shot1.gif
+	frame	data/chars/boss/Shot2.gif
+	frame	data/chars/boss/Shot3.gif
+	sound	data/sounds/sparo.wav
+	custknife Bullet
+	throwframe 4 4
+	frame	data/chars/boss/Shot4.gif
+	frame	data/chars/boss/Shot4.gif
+	frame	data/chars/boss/Shot4.gif
+	frame	data/chars/boss/Shot4.gif
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+renamekey  attack 1-Punch
+disablekey attack4 
+renamekey jump    3-Jump
+renamekey special 4-Kick
+renamekey attack2 2-Back-Attack
+disablekey attack3 
+

@@ -1,0 +1,202 @@
+name	afro
+health	70
+speed	6
+type	enemy
+shadow	0
+noquake 1
+dust    dust
+nodieblink    3
+gfxshadow 0
+falldie 1
+
+aggression -300
+
+palette   data/chars/afro/alter1.gif
+alternatepal   data/chars/afro/alter2.gif 
+alternatepal   data/chars/afro/alter3.gif 
+alternatepal   data/chars/afro/alter4.gif 
+alternatepal   data/chars/afro/alter5.gif 
+
+remap	data/chars/afro/alter1.gif   data/chars/afro/alter2.gif
+remap	data/chars/afro/alter1.gif   data/chars/afro/alter3.gif
+remap	data/chars/afro/alter1.gif   data/chars/afro/alter4.gif
+remap	data/chars/afro/alter1.gif   data/chars/afro/alter5.gif
+
+
+
+
+
+
+
+
+
+anim idle
+	loop	1
+	offset	99  172
+	bbox	83 120 27 56 
+	delay	16
+	frame	data/chars/afro/idle0.gif
+
+
+
+
+anim walk
+	loop	1
+	offset	99  172
+	bbox	83 120 27 56 
+	delay   18
+	frame	data/chars/afro/wk1.gif
+	frame	data/chars/afro/wk2.gif
+	frame	data/chars/afro/wk3.gif
+	frame	data/chars/afro/wk4.gif
+	frame	data/chars/afro/wk5.gif
+
+
+anim pain
+	loop	0
+	delay	13
+	offset	99 172
+	bbox	83 120 27 56 
+	frame	data/chars/afro/pain1.gif
+	frame	data/chars/afro/pain2.gif
+
+anim fall
+	loop	0
+	delay	25
+	offset	99  172
+	frame	data/chars/afro/fall1.gif
+	frame	data/chars/afro/fall2.gif
+	attack  0 0 0 0 0 0
+	frame	data/chars/afro/fall3.gif
+
+anim rise
+	loop	0
+	offset	99  172
+	delay	15
+	frame	data/chars/afro/rise.gif
+
+
+
+
+anim attack1
+	hitfx   data/sounds/kni1.wav
+	hitflash Flash2
+	range	0 34
+	loop	0
+	offset	99  172
+	bbox	83 120 27 56 
+	delay   12
+	frame	data/chars/afro/a101.gif
+        frame	data/chars/afro/a103.gif
+	attack  106 130 24 31 10 1 0 0 1
+	frame	data/chars/afro/a104.gif
+	frame	data/chars/afro/a104.gif
+	attack  0
+	frame	data/chars/afro/a103.gif
+
+
+
+anim attack2
+        range 130 140
+	loop	0
+	delay	8
+	offset	99 172
+	bbox	88 124 19 49
+	frame	data/chars/afro/shot1.gif
+	frame	data/chars/afro/shot2.gif
+	sound	data/sounds/lancio.wav
+	custknife knifeS
+	throwframe 2 2
+	frame	data/chars/afro/shot1.gif
+
+anim jumpattack
+        range 100 120
+	loop	0
+	delay	8
+	offset	99 172
+	bbox	88 124 19 49
+	sound	data/sounds/punch.wav
+	frame	data/chars/afro/jump1.gif
+	attack  106 130 24 31 10 1 0 0 1
+	frame	data/chars/afro/jump1.gif
+	frame	data/chars/afro/jump1.gif
+
+
+anim death
+	sound   data/sounds/die1.wav
+	loop	0
+	delay	10
+	offset	99  172
+	jumpframe	data/chars/afro/fall1.gif 3 -1  0
+	frame	data/chars/afro/fall1.gif
+	frame	data/chars/afro/fall1.gif
+	frame	data/chars/afro/fall2.gif
+	frame	data/chars/afro/fall2.gif
+	frame	data/chars/afro/fall2.gif
+	frame	data/chars/afro/fall2.gif
+	sound   data/sounds/fall.wav
+	attack  0 0 0 0 0 0
+	frame	data/chars/afro/fall3.gif
+
+anim death2
+	sound   data/sounds/die2.wav
+	loop	0
+	delay	10
+	offset	99  172
+	frame	data/chars/afro/de1b.gif
+	frame	data/chars/afro/de2b.gif
+	frame	data/chars/afro/de3b.gif
+	frame	data/chars/afro/de4.gif
+	frame	data/chars/afro/de5.gif
+	frame	data/chars/afro/de6.gif
+	frame	data/chars/afro/de7.gif
+	frame	data/chars/afro/de8.gif
+	frame	data/chars/afro/de4.gif
+	frame	data/chars/afro/de5.gif
+	frame	data/chars/afro/de6.gif
+	frame	data/chars/afro/de7.gif
+	frame	data/chars/afro/de8.gif
+	frame	data/chars/afro/de4.gif
+	frame	data/chars/afro/de5.gif
+	frame	data/chars/afro/de6.gif
+	frame	data/chars/afro/de7.gif
+	frame	data/chars/afro/de8.gif
+	frame	data/chars/afro/de9.gif
+
+
+anim death3
+	sound   data/sounds/die2.wav
+	loop	0
+	delay	10
+	offset	99  172
+	frame	data/chars/afro/de1.gif
+	frame	data/chars/afro/de2.gif
+	frame	data/chars/afro/de3.gif
+	frame	data/chars/afro/de4.gif
+	frame	data/chars/afro/de5.gif
+	frame	data/chars/afro/de6.gif
+	frame	data/chars/afro/de7.gif
+	frame	data/chars/afro/de8.gif
+	frame	data/chars/afro/de4.gif
+	frame	data/chars/afro/de5.gif
+	frame	data/chars/afro/de6.gif
+	frame	data/chars/afro/de7.gif
+	frame	data/chars/afro/de8.gif
+	frame	data/chars/afro/de4.gif
+	frame	data/chars/afro/de5.gif
+	frame	data/chars/afro/de6.gif
+	frame	data/chars/afro/de7.gif
+	frame	data/chars/afro/de8.gif
+	frame	data/chars/afro/de9.gif
+
+anim death4
+	sound   data/sounds/die2.wav
+	loop	0
+	offset	99  172
+	delay   10
+	frame	data/chars/afro/bomb.gif
+
+
+
+
+

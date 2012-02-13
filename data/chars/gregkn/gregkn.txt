@@ -1,0 +1,193 @@
+name	gregKn
+health	50
+speed	6
+type	enemy
+shadow	0
+noquake 1
+dust    dust
+nodieblink    3
+gfxshadow 0
+falldie 1
+
+aggression -300
+
+palette   data/chars/gregKn/alter1.gif
+alternatepal   data/chars/gregKn/alter2.gif 
+alternatepal   data/chars/gregKn/alter3.gif 
+alternatepal   data/chars/gregKn/alter4.gif 
+alternatepal   data/chars/gregKn/alter5.gif 
+
+remap	data/chars/gregKn/alter1.gif   data/chars/gregKn/alter2.gif
+remap	data/chars/gregKn/alter1.gif   data/chars/gregKn/alter3.gif
+remap	data/chars/gregKn/alter1.gif   data/chars/gregKn/alter4.gif
+remap	data/chars/gregKn/alter1.gif   data/chars/gregKn/alter5.gif
+
+
+
+
+
+
+
+
+
+anim idle
+	loop	1
+	offset	99  172
+	bbox	83 120 27 56 
+	delay	16
+	frame	data/chars/gregKn/idle0.gif
+
+
+
+
+anim walk
+	loop	1
+	offset	99  172
+	bbox	83 120 27 56 
+	delay   18
+	frame	data/chars/gregKn/wk1.gif
+	frame	data/chars/gregKn/wk2.gif
+	frame	data/chars/gregKn/wk3.gif
+	frame	data/chars/gregKn/wk4.gif
+	frame	data/chars/gregKn/wk5.gif
+
+
+anim pain
+	loop	0
+	delay	13
+	offset	99 172
+	bbox	83 120 27 56 
+	frame	data/chars/gregKn/pain1.gif
+	frame	data/chars/gregKn/pain2.gif
+
+anim fall
+	loop	0
+	delay	25
+	offset	99  172
+	frame	data/chars/gregKn/fall1.gif
+	frame	data/chars/gregKn/fall2.gif
+	attack  0 0 0 0 0 0
+	frame	data/chars/gregKn/fall3.gif
+
+anim rise
+	loop	0
+	offset	99  172
+	delay	15
+	frame	data/chars/gregKn/rise.gif
+
+
+
+
+anim attack1
+	hitfx   data/sounds/kni1.wav
+	hitflash Flash2
+	range	0 34
+	loop	0
+	offset	99  172
+	bbox	83 120 27 56 
+	delay   12
+	frame	data/chars/gregKn/a101.gif
+	attack  106 130 24 31 10 1 0 0 1
+        frame	data/chars/gregKn/a103.gif
+	frame	data/chars/gregKn/a103.gif
+	attack  0
+	frame	data/chars/gregKn/a101.gif
+
+
+anim attack2
+	loop	0
+	offset	99  172
+	bbox	83 120 27 56 
+	range	80 180
+	delay   10
+	hitfx   data/sounds/kni1.wav
+	hitflash Flash2
+        sound wirl
+	jumpframe	data/chars/gregKn/wk1.gif 0 2 0
+	frame	data/chars/gregKn/wk1.gif
+	attack  106 130 24 31  10 1 0 0 1
+	frame	data/chars/gregKn/wk2.gif
+	frame	data/chars/gregKn/wk3.gif
+	frame	data/chars/gregKn/wk4.gif
+	frame	data/chars/gregKn/wk5.gif
+	frame	data/chars/gregKn/wk1.gif
+	frame	data/chars/gregKn/wk2.gif
+	frame	data/chars/gregKn/wk3.gif
+	frame	data/chars/gregKn/wk4.gif
+	frame	data/chars/gregKn/wk5.gif
+	frame	data/chars/gregKn/wk1.gif
+	frame	data/chars/gregKn/wk2.gif
+
+
+
+
+
+anim death
+	sound   data/sounds/die1.wav
+	loop	0
+	delay	10
+	offset	99  172
+	jumpframe	data/chars/greg/fall1.gif 3 -1  0
+	frame	data/chars/greg/fall1.gif
+	frame	data/chars/greg/fall1.gif
+	frame	data/chars/greg/fall2.gif
+	frame	data/chars/greg/fall2.gif
+	frame	data/chars/greg/fall2.gif
+	frame	data/chars/greg/fall2.gif
+	sound   data/sounds/fall.wav
+	attack  0 0 0 0 0 0
+	frame	data/chars/greg/fall3.gif
+
+
+anim death2
+	sound   data/sounds/die2.wav
+	loop	0
+	offset	99  172
+	delay   10
+	frame	data/chars/greg/d01.gif
+        frame	data/chars/greg/d02.gif
+	frame	data/chars/greg/d03.gif
+	frame	data/chars/greg/d04.gif
+	frame	data/chars/greg/d05.gif
+	frame	data/chars/greg/d03.gif
+	frame	data/chars/greg/d04.gif
+	frame	data/chars/greg/d05.gif
+	frame	data/chars/greg/d03.gif
+	frame	data/chars/greg/d04.gif
+	frame	data/chars/greg/d05.gif
+	frame	data/chars/greg/d03.gif
+	frame	data/chars/greg/d04.gif
+	frame	data/chars/greg/d05.gif
+	frame	data/chars/greg/d06.gif
+	frame	data/chars/greg/d07.gif
+
+
+anim death3
+	sound   data/sounds/die2.wav
+	loop	0
+	offset	99  172
+	delay   10
+	frame	data/chars/greg/d01b.gif
+        frame	data/chars/greg/d02b.gif
+	frame	data/chars/greg/d03b.gif
+	frame	data/chars/greg/d04b.gif
+	frame	data/chars/greg/d05b.gif
+	frame	data/chars/greg/d03b.gif
+	frame	data/chars/greg/d04b.gif
+	frame	data/chars/greg/d05b.gif
+	frame	data/chars/greg/d03b.gif
+	frame	data/chars/greg/d04b.gif
+	frame	data/chars/greg/d05b.gif
+	frame	data/chars/greg/d03b.gif
+	frame	data/chars/greg/d04b.gif
+	frame	data/chars/greg/d05b.gif
+	frame	data/chars/greg/d06b.gif
+	frame	data/chars/greg/d07b.gif
+
+
+anim death4
+	sound   data/sounds/die2.wav
+	loop	0
+	offset	99  172
+	delay   10
+	frame	data/chars/greg/bomb.gif

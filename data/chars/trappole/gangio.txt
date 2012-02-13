@@ -1,0 +1,74 @@
+name	gangio
+health  0
+speed	6
+type	trap
+nomove 1
+shadow	0
+noquake 1
+dust    dust
+gfxshadow 1
+
+
+
+
+
+anim idle
+	loop	1
+	offset	99 172
+	bbox	0 0 0 0
+	delay	12
+	hitfx	data/sounds/beat4.wav
+	frame	data/chars/trappole/gangio1.gif
+        Attack  83 87 33 52  50 1 1 0
+	frame	data/chars/trappole/gangio2.gif
+        Attack  85 113 31 46 50 1 1 0
+	frame	data/chars/trappole/gangio3.gif
+        Attack  85 171 29 43 50 1 1 0
+	frame	data/chars/trappole/gangio4.gif
+        Attack  85 176 29 42 50 1 1 0
+	frame	data/chars/trappole/gangio5.gif
+	frame	data/chars/trappole/gangio5.gif
+        Attack   0 0 0 0 0 0 0 0
+	frame	data/chars/trappole/gangio4.gif
+	frame	data/chars/trappole/gangio3.gif
+	frame	data/chars/trappole/gangio2.gif
+	frame	data/chars/trappole/gangio1.gif
+	frame	data/chars/trappole/gangio1.gif
+	frame	data/chars/trappole/gangio1.gif
+	frame	data/chars/trappole/gangio1.gif
+	frame	data/chars/trappole/gangio1.gif
+	frame	data/chars/trappole/gangio1.gif
+	frame	data/chars/trappole/gangio1.gif
+	frame	data/chars/trappole/gangio1.gif
+	frame	data/chars/trappole/gangio1.gif
+	frame	data/chars/trappole/gangio1.gif
+	frame	data/chars/trappole/gangio1.gif
+	frame	data/chars/trappole/gangio1.gif
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,150 @@
+name	   Snake3
+type	   none
+shadow	   0
+
+noquake    1
+playshotno sp
+jumpheight 3
+typeshot   1
+icon	   data/chars/Snake/iconw2.gif
+diesound   data/sounds/Snake1.wav
+gfxshadow  0
+
+
+
+load	Bullet
+
+palette   data/chars/Snake/alter1.gif
+alternatepal   data/chars/Snake/alter2.gif 
+
+
+
+remap	 data/chars/Snake/alter1.gif data/chars/Snake/alter2.gif 
+
+
+
+
+
+
+
+
+
+anim idle
+	loop	1
+	delay	24
+	offset	99 172
+	bbox	88 124 19 49
+	frame	data/chars/snake2/Miidle1.gif
+	frame	data/chars/snake2/Miidle2.gif
+	frame	data/chars/snake2/Miidle3.gif
+
+
+
+
+
+
+anim walk
+	loop	1
+	delay	18
+	offset	99 172
+	bbox	88 124 19 49
+	frame	data/chars/snake2/Miwk1.gif
+	frame	data/chars/snake2/Miwk2.gif
+	frame	data/chars/snake2/Miwk3.gif
+
+
+
+
+anim get
+	loop	0
+	offset	99 172
+	delay  19
+	frame	data/chars/Snake/get1.gif
+        delay 22
+	frame	data/chars/Snake/get1.gif
+
+
+anim attack1 
+	loop	0
+	delay	8
+	offset	99 172
+	bbox	88 124 19 49
+	hitfx	data/sounds/beat4.wav
+	frame	data/chars/snake2/MiAt1.gif
+	frame	data/chars/snake2/MiAt2.gif
+	frame	data/chars/snake2/MiAt2.gif
+	attack  106 131 25 32 13 1 0 0 12
+	frame	data/chars/snake2/MiAt3.gif
+
+
+
+
+
+
+anim special
+        mponly  1
+        mpcost  0
+	loop	0
+	delay	8
+	offset	99 172
+	bbox	88 124 19 49
+	frame	data/chars/snake2/MiSho1.gif
+	frame	data/chars/snake2/MiSho2.gif
+	frame	data/chars/snake2/MiSho2.gif
+	sound	data/sounds/gun.wav
+	custknife Bullet
+	throwframe 2 2
+	frame	data/chars/snake2/MiSho3.gif
+
+
+
+
+
+
+
+
+
+anim jump
+	loop	0
+	delay	33
+	offset	99 172
+	frame	data/chars/snake2/miju1.gif
+	frame	data/chars/snake2/miju2.gif
+	bbox	88 124 19 49
+	delay   12
+
+
+
+
+
+
+anim jumpattack
+	loop	0
+	delay	12
+	offset	99 172
+	bbox	88 124 19 49
+	sound	data/sounds/punch.wav
+	frame	data/chars/snake2/miak1.gif
+	attack  101 112 25 51 7 1 0 0 25
+	frame	data/chars/snake2/miak2.gif
+	frame	data/chars/snake2/miak2.gif	
+	attack  0 0 0 0 0 0 0 0 0 0
+	frame	data/chars/snake2/miak1.gif
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
